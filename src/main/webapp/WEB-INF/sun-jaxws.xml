@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+    <endpoint name="StudentService" implementation="com.course.service.soap.StudentService" url-pattern="/StudentService"></endpoint>
+    <endpoint name="CourseService" implementation="com.course.service.soap.CourseService" url-pattern="/CourseService"></endpoint>
+    <endpoint name="TeacherService" implementation="com.course.service.soap.TeacherService" url-pattern="/TeacherService"></endpoint>
+</endpoints>
